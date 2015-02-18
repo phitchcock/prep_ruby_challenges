@@ -20,3 +20,15 @@ def factorial(num)
 end
 
 puts factorial(10)
+
+def uniques(data)
+  result = []
+  uniq_array = []
+  #result = [data]
+  #uniq_array = []
+  data.each do |item|
+    result << item
+  end
+end
+
+puts uniques([1,2,3,3])
